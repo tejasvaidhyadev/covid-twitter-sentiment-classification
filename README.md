@@ -26,9 +26,10 @@ This Repo contains:
 - **experiment**: Contains experiments related log and models  
 - **pretrained_model**: Pretrained models and config jsons  
 - **env.yml**: yml to create conda environment
-- **README**: This file :)
 - **inference.py**: code for runing model in inference mode
 - **interactive.py**: code to run model in interactive mode
+- **README**: This file :)
+- **train.py**: code for training the Covid twitter bert
 - **util.py**: contains utilty function
 
 ## Instructions
