@@ -1,7 +1,7 @@
-## covid-twitter-sentiment-classification-
-Sentiment classifer for Covid-tweets: Finetuned [Covid-Twitter Bert](https://arxiv.org/abs/2005.07503).
+## covid-twitter-sentiment-classification
+Sentiment classifier for Covid-tweets: Finetuned [Covid-Twitter Bert](https://arxiv.org/abs/2005.07503).
 
-This Repo contains
+This Repo contains:
 
 - Code for Inference model.
 - Trained models (Finetuned model).
@@ -19,6 +19,18 @@ This Repo contains
 | scipy        | 1.5.0  | `pip install scipy==1.5.0` |
 | NLTK    | 3.5  | `pip install nltk==3.5
 ` |
+
+## Directory Struture
+
+- **data**: Contains pre-processed csv file of data. Read data/README.md for more details.  
+- **experiment**: Contains experiments related log and models  
+- **pretrained_model**: Pretrained models and config jsons  
+- **env.yml**: yml to create conda environment
+- **README**: This file :)
+- **inference.py**: code for runing model in inference mode
+- **interactive.py**: code to run model in interactive mode
+- **util.py**: contains utilty function
+
 ## Instructions
 1. Setting up the codebase and the dependencies
      
