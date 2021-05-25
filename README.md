@@ -7,6 +7,7 @@ This Repo contains
 - Trained models (Finetuned model).
 - Dependencies and steps to replicate results.
 - cli tool for error Analysis
+- Trained model weigths: [link](https://github.com/tejasvaidhyadev/covid-twitter-sentiment-classification/releases/download/V0.1/weights.zip)
 
 ## Dependencies and setup
 | Dependency | Version | Installation Command |
@@ -30,9 +31,10 @@ This Repo contains
 
 2. download the pretrained model
 
-download pretrained model and keep it in ```pretreined_model``` folder
+download [pretrained model](https://github.com/tejasvaidhyadev/covid-twitter-sentiment-classification/releases/download/V0.1/weights.zip) and keep it in ```pretrained_model``` folder
 ```
-bash trained_model.sh 
+wget https://github.com/tejasvaidhyadev/covid-twitter-sentiment-classification/releases/download/V0.1/weights.zip
+unzip weights.zip -d pretrained_model #make sure to del already existed JSON.  
 ```
 
 3. Command line tool
