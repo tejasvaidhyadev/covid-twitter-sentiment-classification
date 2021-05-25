@@ -20,7 +20,7 @@ This Repo contains:
 | NLTK    | 3.5  | `pip install nltk==3.5
 ` |
 
-## Directory Struture
+## Directory Structure
 
 - **data**: Contains pre-processed csv file of data. Read data/README.md for more details.  
 - **experiment**: Contains experiments related log and models  
