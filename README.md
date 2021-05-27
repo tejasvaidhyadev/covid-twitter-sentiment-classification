@@ -1,23 +1,21 @@
 ## COVID Twitter Sentiment Classifier
 
-This repo contains our fine-tuned BERT sentiment classifier for COVID tweets.
+This repo contains our fine-tuned **BERT sentiment classifier** for **COVID tweets**. Our model adopts and finetunes the [Covid-Twitter Bert model](https://arxiv.org/abs/2005.07503) (Müller et al., 2020).
 
 
 
-You can easily use our off-the-shelf model by a simple 1-line command.
+You can easily use our **off-the-shelf** model by a simple **1-line command**.
 
 
 
-Acknowledgement: This model finetunes the [Covid-Twitter Bert model](https://arxiv.org/abs/2005.07503)(Müller et al., 2020).
+Main author of this repo: _Tejas Vaidhya_. 
+This is part of the project on NLP for Policy-Making led by _Zhijing Jin (Max Planck Institute), Zeyu Peng (MIT), Tejas Vaidhya (IIT), Bernhard Schoelkopf (Max Planck Institute), and Rada Mihalcea (University of Michigan)_.
 
 
-
-**We provide the following resources:**
+**In this repo, we provide the following resources:**
 
 - Our finetuned BERT model (and model weights saved [here](https://github.com/tejasvaidhyadev/covid-twitter-sentiment-classification/releases/download/V0.1/weights.zip))
-
 - Command to run our BERT model (with both interactive and inference modes)
-
 - Dependencies and step-by-step guides
 
   
